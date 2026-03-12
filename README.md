@@ -9,6 +9,8 @@ Current application is for a Tacrolimus PK model [ref needed]
 
 Following a bolus dose **D** at **t = 0**, drug concentrations **C(t)** are measured over **t = 0..48 h**. Each patient has a unique PK profile driven by individual parameters (clearance, volume of distribution, etc.). The model encodes these dynamics into a structured latent space and integrates forward in continuous time using a neural ODE.
 
+<img width="1630" height="981" alt="Tacrolimus_LatentNODE_traintest" src="https://github.com/user-attachments/assets/da56b6d7-d93d-4003-87a8-45a9c5a14010" />
+
 ---
 
 ## Model Architecture
@@ -114,6 +116,9 @@ Key hyperparameters are set in the `cfg` struct at the top of `main.m`:
 
 ## References
 
-- Chen, R. T. Q. et al. (2018). *Neural Ordinary Differential Equations*. NeurIPS.
-- Rubanova, Y. et al. (2019). *Latent ODEs for Irregularly-Sampled Time Series*. NeurIPS.
+- R.T. Chen, et al. (2018). *Neural Ordinary Differential Equations*. NeurIPS.
+- Y. Rubanova, et al. (2019). *Latent ODEs for Irregularly-Sampled Time Series*. NeurIPS.
 - MathWorks (2023). *Deep Learning Toolbox — dlode45 documentation*.
+- R. Venkataramanan, et al. (1995) *Clinical pharmacokinetics of tacrolimus* Clinical Pharmacokinetics,
+vol. 29, pp. 404–430, 1995.
+- D. Chen, et al. (2023) *Population pk/pd model of tacrolimus for exploring the relationship between accumulated exposure and quantitative scores in myasthenia gravis patients* CPT: Pharmacometrics & Systems Pharmacology, vol. 12, no. 7, pp. 963–976,
