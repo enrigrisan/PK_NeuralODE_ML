@@ -2,7 +2,7 @@
 
 A MATLAB implementation of a **Latent Neural Ordinary Differential Equation (Neural ODE)** model for population pharmacokinetics (PK), built using the Deep Learning Toolbox. The model learns continuous-time drug concentration trajectories from sparse, irregularly sampled patient observations following a bolus injection.
 
-Current application is for a Tacrolimus PK model [ref needed]
+Current application is for a Tacrolimus PK model [D. Chen, et al. (2023)]
 
 ---
 ## Overview
