@@ -1,4 +1,4 @@
-function pat = generatePKData_single(cfg)
+function pat = Tacrolimus_generatePKData_single(cfg)
     % Random 2-compartment PK parameters (log-normal population)
     CL  = exp(log(5)   + 0.3*randn);   % clearance
     V1  = exp(log(20)  + 0.3*randn);   % central volume

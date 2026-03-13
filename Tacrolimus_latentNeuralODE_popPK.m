@@ -30,7 +30,7 @@ cfg.atolODE     = 1e-4;      % absolute tolerance for dlode45
 %% 1. Synthetic PK Data
 fprintf('Generating synthetic PK data...\n');
 datafile=fullfile(datapath,'dataset2_covariates.csv');
-[data, data_val] = generatePKData_fromFile(cfg, datafile, 0);
+[data, data_val] = Tacrolimus_generatePKData_fromFile(cfg, datafile, 0);
 %data = generatePKData(cfg);
 
 %% 2. Build Network Components

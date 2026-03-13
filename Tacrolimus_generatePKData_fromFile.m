@@ -1,7 +1,7 @@
 % ---------------------------------------------------------
 % DATA GENERATION
 % ---------------------------------------------------------
-function [data_train, data_test] = generatePKData_fromFile(cfg, datafile, test)
+function [data_train, data_test] = Tacrolimus_generatePKData_fromFile(cfg, datafile, test)
 
 
 M=readmatrix(datafile);
