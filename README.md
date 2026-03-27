@@ -123,3 +123,4 @@ Key hyperparameters are set in the `cfg` struct at the top of `main.m`:
 - R. Venkataramanan, et al. (1995) *Clinical pharmacokinetics of tacrolimus* Clinical Pharmacokinetics,
 vol. 29, pp. 404–430, 1995.
 - D. Chen, et al. (2023) *Population pk/pd model of tacrolimus for exploring the relationship between accumulated exposure and quantitative scores in myasthenia gravis patients* CPT: Pharmacometrics & Systems Pharmacology, vol. 12, no. 7, pp. 963–976,
+- D. Perazzolo, C. Castellani, E. Grisan (2025) *Uncovering Population PK Covariates from VAE-Generated Latent Spaces* 2025 47th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC), doi: 10.1109/EMBC58623.2025.11252862
